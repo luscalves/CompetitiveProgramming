@@ -1,4 +1,4 @@
-// Percorra um vetor, some os números pares e conte quantos ímpares tem 
+//Soma os números pares e cria um contador dos números impares 
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -13,9 +13,9 @@ vector<int> array(N);
 
 for(i=0; i<N; i++)
 {
-	cin>>array[N];
+	cin>>array[i];
 	
-	if(array[N]%2 == 0)
+	if(array[i]%2 == 0)
 	{
 		somaPares += array[N];
 	}else{
