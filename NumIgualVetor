@@ -1,0 +1,27 @@
+//Identifica quantidade de números igual a X
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+ios_base::sync_with_stdio(false);
+cin.tie(NULL);
+int N=0, i, X=0, contX=0;
+cin>>N;
+cin>>X;
+vector<int> array(N);
+
+for(i=0; i<N; i++)
+{
+	cin>>array[i];
+	if(X == array[i])
+	{
+	 contX++;
+	}
+}
+
+cout<<contX;
+
+return 0;
+}
